@@ -11,8 +11,7 @@ const flash = require('connect-flash');
 const errorController = require('./controllers/error');
 const User = require('./models/user');
 
-const MONGODB_URI =
-  'mongodb+srv://baxuu:nodeshop1@cluster0.wpdox.mongodb.net/node-shop';
+const MONGODB_URI = `mongodb+srv://${process.env.USER}:${process.env.PASS}@cluster0.wpdox.mongodb.net/${process.env.DATABASE}`;
 
 const app = express();
 const store = new MongoDBStore({
