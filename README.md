@@ -1,11 +1,7 @@
-## NodeJS - The Complete Guide (incl. Deno.js, REST APIs, GraphQL)
-
-Academind by Maximilian Schwarzmüller,
-
-#### One of the projects using MVC
+## NodeJS - shop project used MVC 
 
 
-
+The Complete Guide (incl. Deno.js, REST APIs, GraphQL) Academind by Maximilian Schwarzmüller based project
 
 ### Inside the course
 - Node.js Basics & Basic Core Modules
