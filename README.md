@@ -1,4 +1,4 @@
-﻿## NodeJS - The Complete Guide (incl. Deno.js, REST APIs, GraphQL)
+## NodeJS - The Complete Guide (incl. Deno.js, REST APIs, GraphQL)
 
 Academind by Maximilian Schwarzmüller,
 
