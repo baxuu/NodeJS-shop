@@ -1,30 +1,55 @@
-## NodeJS - shop project used MVC 
+# Burger Builder
+
+Simple shop app where you can create, edit, add to cart and buy items. Maximilian Schwarzmüller based project
+
+![](https://github.com/baxuu/NodeJS-shop/blob/master/assets/shopnodeex.jpg?raw=true)
+
+### Built with
+- `Node.js`
+- `Express.js`
+- `MVC Pattern`
+- `MongoDB and Mongoose`
+- `REST APIs`
 
 
-The Complete Guide (incl. Deno.js, REST APIs, GraphQL) Academind by Maximilian Schwarzmüller based project
+## Installation
 
-### Inside the course
-- Node.js Basics & Basic Core Modules
-- Parsing Requests & Sending Responses
-- Rendering HTML Dynamically (on the Server)
-- Using Express.js
-- Working with Files and generating PDFs on the Server (on-the-fly)
-- File Up- and Download
-- Using the Model-View-Controller (MVC) Pattern
-- Using Node.js with SQL (MySQL) and Sequelize
-- Using Node.js with NoSQL (MongoDB) and Mongoose
-- Working with Sessions & Cookies
-- User Authentication and Authorization
-- Sending E-Mails
-- Validating User Input
-- Data Pagination
-- Handling Payments with Stripe.js
-- Building REST APIs
-- Authentication in REST APIs
-- File Upload in REST APIs
-- Building GraphQL APIs
-- Authentication in GraphQL APIs
-- File Upload in GraphQL APIs
-- Building a Realtime Node.js App with Websockets
-- Automated Testing (Unit Tests)
-- Deploying a Node.js Application
+Clone or download repository 
+
+```
+git clone https://github.com/baxuu/NodeJS-shop.git
+```
+
+than
+
+```
+cd NodeJS-shop
+```
+
+Install packages
+
+```
+npm install
+```
+## Configuration
+
+In NodeJS-shop folder create nodemon.json and define env object with mongodb credentials:
+```python
+{
+    "env": {
+    "USER": "<name>",
+    "PASS": "<password>",
+    "DATABASE": "<database name>"
+}
+
+}
+```
+
+## Running
+
+App will start on port ***3000***.  Run command:
+
+```
+npm start
+```
+
