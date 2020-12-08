@@ -1,4 +1,4 @@
-# Burger Builder
+# NodeJS-shop
 
 Simple shop app where you can create, edit, add to cart and buy items. Maximilian Schwarzmüller based project
 
